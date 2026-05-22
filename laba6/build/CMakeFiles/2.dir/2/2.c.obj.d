@@ -1,0 +1,10 @@
+CMakeFiles/2.dir/2/2.c.obj: D:\LABS_MIET\ASM\laba6\2\2.c \
+ C:/msys64/ucrt64/include/stdio.h \
+ C:/msys64/ucrt64/include/corecrt_stdio_config.h \
+ C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
+ C:/msys64/ucrt64/include/_mingw_mac.h \
+ C:/msys64/ucrt64/include/_mingw_secapi.h \
+ C:/msys64/ucrt64/include/vadefs.h \
+ C:/msys64/ucrt64/include/_mingw_off_t.h \
+ C:/msys64/ucrt64/include/swprintf.inl \
+ C:/msys64/ucrt64/include/sec_api/stdio_s.h
