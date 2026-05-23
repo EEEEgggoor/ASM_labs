@@ -3,22 +3,22 @@ section .text
     global fill_mass
 
 fill_mass:
-    push rbp
-    mov rbp, rsp
-
+   
+    mov r8, rcx       
+    mov r9d, edx  
+    
     mov eax, 2
-    xor rcx, rcx
+    xor rcx, rcx      ; Теперь используем rcx как счетчик цикла
 
 loop_start:
-    cmp ecx, esi
+    cmp rcx, r9       ; Сравниваем счетчик с длиной N
     jge loop_end
 
-    mov [rdi + rcx*4], eax
+    mov [r8 + rcx*4], eax ; Записываем значение в массив
 
     add eax, 3
     inc rcx
     jmp loop_start
 
 loop_end:
-    pop rbp
     ret

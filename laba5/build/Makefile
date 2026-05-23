@@ -219,19 +219,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.dir\build.make CMakeFiles/8.dir/build
 .PHONY : 8/fast
 
-#=============================================================================
-# Target rules for targets named 9
-
-# Build rule for target.
-9 : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 9
-.PHONY : 9
-
-# fast build rule for target.
-9/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\9.dir\build.make CMakeFiles/9.dir/build
-.PHONY : 9/fast
-
 1/1.obj: 1/1.asm.obj
 .PHONY : 1/1.obj
 
@@ -368,38 +355,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.dir\build.make CMakeFiles/8.dir/8/sa.asm.obj
 .PHONY : 8/sa.asm.obj
 
-9/9.obj: 9/9.c.obj
-.PHONY : 9/9.obj
-
-# target to build an object file
-9/9.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\9.dir\build.make CMakeFiles/9.dir/9/9.c.obj
-.PHONY : 9/9.c.obj
-
-9/9.i: 9/9.c.i
-.PHONY : 9/9.i
-
-# target to preprocess a source file
-9/9.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\9.dir\build.make CMakeFiles/9.dir/9/9.c.i
-.PHONY : 9/9.c.i
-
-9/9.s: 9/9.c.s
-.PHONY : 9/9.s
-
-# target to generate assembly for a file
-9/9.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\9.dir\build.make CMakeFiles/9.dir/9/9.c.s
-.PHONY : 9/9.c.s
-
-9/mre.obj: 9/mre.asm.obj
-.PHONY : 9/mre.obj
-
-# target to build an object file
-9/mre.asm.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\9.dir\build.make CMakeFiles/9.dir/9/mre.asm.obj
-.PHONY : 9/mre.asm.obj
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -416,7 +371,6 @@ help:
 	@echo ... 6
 	@echo ... 7
 	@echo ... 8
-	@echo ... 9
 	@echo ... 1/1.obj
 	@echo ... 2/2.obj
 	@echo ... 3/3.obj
@@ -434,10 +388,6 @@ help:
 	@echo ... 8/8.i
 	@echo ... 8/8.s
 	@echo ... 8/sa.obj
-	@echo ... 9/9.obj
-	@echo ... 9/9.i
-	@echo ... 9/9.s
-	@echo ... 9/mre.obj
 .PHONY : help
 
 

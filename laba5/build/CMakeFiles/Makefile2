@@ -70,7 +70,6 @@ all: CMakeFiles/5.dir/all
 all: CMakeFiles/6.dir/all
 all: CMakeFiles/7.dir/all
 all: CMakeFiles/8.dir/all
-all: CMakeFiles/9.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -82,7 +81,6 @@ codegen: CMakeFiles/5.dir/codegen
 codegen: CMakeFiles/6.dir/codegen
 codegen: CMakeFiles/7.dir/codegen
 codegen: CMakeFiles/8.dir/codegen
-codegen: CMakeFiles/9.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -98,7 +96,6 @@ clean: CMakeFiles/5.dir/clean
 clean: CMakeFiles/6.dir/clean
 clean: CMakeFiles/7.dir/clean
 clean: CMakeFiles/8.dir/clean
-clean: CMakeFiles/9.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -356,38 +353,6 @@ CMakeFiles/8.dir/codegen:
 CMakeFiles/8.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.dir\build.make CMakeFiles/8.dir/clean
 .PHONY : CMakeFiles/8.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/9.dir
-
-# All Build rule for target.
-CMakeFiles/9.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\9.dir\build.make CMakeFiles/9.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\9.dir\build.make CMakeFiles/9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LABS_MIET\ASM\laba5\build\CMakeFiles --progress-num=20,21,22 "Built target 9"
-.PHONY : CMakeFiles/9.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/9.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\LABS_MIET\ASM\laba5\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/9.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\LABS_MIET\ASM\laba5\build\CMakeFiles 0
-.PHONY : CMakeFiles/9.dir/rule
-
-# Convenience name for target.
-9 : CMakeFiles/9.dir/rule
-.PHONY : 9
-
-# codegen rule for target.
-CMakeFiles/9.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\9.dir\build.make CMakeFiles/9.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LABS_MIET\ASM\laba5\build\CMakeFiles --progress-num=20,21,22 "Finished codegen for target 9"
-.PHONY : CMakeFiles/9.dir/codegen
-
-# clean rule for target.
-CMakeFiles/9.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\9.dir\build.make CMakeFiles/9.dir/clean
-.PHONY : CMakeFiles/9.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

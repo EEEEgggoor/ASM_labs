@@ -1,5 +1,5 @@
 section .data
-    x dd -15
+    x dd 429496729
     z dd 0
     fmt db "z = %u", 10, 0
 
