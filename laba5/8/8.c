@@ -20,5 +20,7 @@ int main() {
     printf("Res index: %zu\n", result);
     
     free(arr);
+
+    getchar();
     return 0;
 }

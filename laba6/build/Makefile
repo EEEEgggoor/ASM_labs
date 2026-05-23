@@ -193,19 +193,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.dir\build.make CMakeFiles/6.dir/build
 .PHONY : 6/fast
 
-#=============================================================================
-# Target rules for targets named 7
-
-# Build rule for target.
-7 : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 7
-.PHONY : 7
-
-# fast build rule for target.
-7/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/build
-.PHONY : 7/fast
-
 1/1.obj: 1/1.asm.obj
 .PHONY : 1/1.obj
 
@@ -398,38 +385,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.dir\build.make CMakeFiles/6.dir/6/6.c.s
 .PHONY : 6/6.c.s
 
-7/7.obj: 7/7.asm.obj
-.PHONY : 7/7.obj
-
-# target to build an object file
-7/7.asm.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/7/7.asm.obj
-.PHONY : 7/7.asm.obj
-
-7/7.obj: 7/7.c.obj
-.PHONY : 7/7.obj
-
-# target to build an object file
-7/7.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/7/7.c.obj
-.PHONY : 7/7.c.obj
-
-7/7.i: 7/7.c.i
-.PHONY : 7/7.i
-
-# target to preprocess a source file
-7/7.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/7/7.c.i
-.PHONY : 7/7.c.i
-
-7/7.s: 7/7.c.s
-.PHONY : 7/7.s
-
-# target to generate assembly for a file
-7/7.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/7/7.c.s
-.PHONY : 7/7.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -444,7 +399,6 @@ help:
 	@echo ... 4
 	@echo ... 5
 	@echo ... 6
-	@echo ... 7
 	@echo ... 1/1.obj
 	@echo ... 1/1.obj
 	@echo ... 1/1.i
@@ -469,10 +423,6 @@ help:
 	@echo ... 6/6.obj
 	@echo ... 6/6.i
 	@echo ... 6/6.s
-	@echo ... 7/7.obj
-	@echo ... 7/7.obj
-	@echo ... 7/7.i
-	@echo ... 7/7.s
 .PHONY : help
 
 

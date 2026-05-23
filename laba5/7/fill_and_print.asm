@@ -8,38 +8,38 @@ section .text
     extern printf
 
 print_mas:
-    push rbp
-    mov rbp, rsp 
+    sub rsp, 40
     push rbx
+    push rsi
 
-    mov rbx, rsi     
-    xor ecx, ecx      
-    mov eax, 2      
+    mov rbx, rsi
+    xor rcx, rcx
+    mov rsi, 2
 
 loop_start:
-    cmp ecx, ebx       
-    jge loop_end        
+    cmp rcx, rbx
+    jge loop_end
 
-    push rcx
-    push rax
+    mov r12, rcx
+    mov r13, rsi
 
-    mov rsi, rax       
-    lea rdi, [fmt]      
+    lea rcx, [fmt]
+    mov rdx, r13
     xor eax, eax
     call printf
-    
-    pop rax      
-    pop rcx
 
-    add eax, 3      
-    inc ecx          
+    mov rcx, r12
+    mov rsi, r13
+    add rsi, 3
+    inc rcx
     jmp loop_start
 
 loop_end:
-    lea rdi, [newline]
+    lea rcx, [newline]
     xor eax, eax
     call printf
 
+    pop rsi
     pop rbx
-    pop rbp
+    add rsp, 40
     ret

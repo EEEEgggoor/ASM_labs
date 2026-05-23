@@ -1,0 +1,11 @@
+D:/LABS_MIET/ASM/laba5/build/CMakeFiles/1.dir
+D:/LABS_MIET/ASM/laba5/build/CMakeFiles/2.dir
+D:/LABS_MIET/ASM/laba5/build/CMakeFiles/3.dir
+D:/LABS_MIET/ASM/laba5/build/CMakeFiles/4.dir
+D:/LABS_MIET/ASM/laba5/build/CMakeFiles/5.dir
+D:/LABS_MIET/ASM/laba5/build/CMakeFiles/6.dir
+D:/LABS_MIET/ASM/laba5/build/CMakeFiles/7.dir
+D:/LABS_MIET/ASM/laba5/build/CMakeFiles/8.dir
+D:/LABS_MIET/ASM/laba5/build/CMakeFiles/9.dir
+D:/LABS_MIET/ASM/laba5/build/CMakeFiles/edit_cache.dir
+D:/LABS_MIET/ASM/laba5/build/CMakeFiles/rebuild_cache.dir

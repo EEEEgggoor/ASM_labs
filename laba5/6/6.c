@@ -17,5 +17,7 @@ int main(){
     
     free(arr);
 
+    getchar();
+
     return 0;
 }

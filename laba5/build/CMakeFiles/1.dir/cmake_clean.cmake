@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "1.exe"
+  "1.exe.manifest"
+  "1.pdb"
+  "CMakeFiles/1.dir/1/1.asm.obj"
+  "CMakeFiles/1.dir/1/1.asm.obj.d"
+  "lib1.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM_NASM)
+  include(CMakeFiles/1.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

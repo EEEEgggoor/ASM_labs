@@ -1,0 +1,1 @@
+C:\msys64\ucrt64\bin\ld.exe CMakeFiles/3.dir/3/3.asm.obj -o 3.exe  -lmsvcrt
